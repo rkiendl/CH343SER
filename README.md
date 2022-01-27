@@ -1,5 +1,10 @@
 # ch343 linux serial driver
 
+## Change for raspberry
+change ASYNCB_INITIALIZED to tty_port_initialized
+
+tested on rpi4
+
 ## Description
 
 ​	USB to UART(s) chip ch342/ch343/ch344/ch347/ch9101/ch9102/ch9103/ch9143 are fully compliant to the  Communications Device Class (CDC) standard, they will work with a standard CDC-ACM driver (CDC - Abstract Control Model). Linux operating systems supply a default CDC-ACM driver that can be used with these USB UART devices. In Linux, this driver file name is cdc-acm.
